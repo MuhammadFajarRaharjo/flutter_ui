@@ -1,16 +1,20 @@
 # home_rent
 
-A new Flutter project.
+A Flutter project for learning Flutter UI.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a project created to learning UI flutter.
+In this application only displays 3 screens, namely:
+- Home to display a list of the house that will be sold.
+- Details to display details from home.
+- Menu to display features options in the application.
 
-A few resources to get you started if this is your first Flutter project:
+The package used:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [flutter_svg: ^2.0.7](https://pub.dev/packages/flutter_svg)
+- [flutter_zoom_drawer: ^3.1.1](https://pub.dev/packages/flutter_zoom_drawer)
+- [google_fonts: ^5.0.0](https://pub.dev/packages/google_fonts)
+- [provider: ^6.0.5](https://pub.dev/packages/provider)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
