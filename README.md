@@ -16,14 +16,14 @@ The package used:
 
 # Screenshot
 
-## Home
+### Home
 
 <img src="Screenshot/home_page.png" alt="Home Page" height="500">
 
-## Detail
+### Detail
 
 <img src="Screenshot/detail_page.png" alt="Detail Page" height="500">
 
-## Menu
+### Menu
 
 <img src="Screenshot/hidden_zoom_drawer.png" alt="Menu Page" height="500">
