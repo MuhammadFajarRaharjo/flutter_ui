@@ -86,50 +86,6 @@ class _MainPageState extends State<MainPage> {
             ],
           ),
         ),
-
-        //? MASIH KURANG BAGUS KARENA BAGIAN LIST HOME VERTICAL
-        //? AKAN BISA DI CROLL DAN ITU TIDAK BAGUS
-        // child: NestedScrollView(
-        //   physics: const NeverScrollableScrollPhysics(),
-        //   headerSliverBuilder: (_, __) => [
-        //     const SliverToBoxAdapter(child: Heading()),
-        //     // Categories
-        //     SliverAppBar(
-        //       scrolledUnderElevation: 1,
-        //       pinned: true,
-        //       surfaceTintColor: Colors.transparent,
-        //       toolbarHeight: 65,
-        //       flexibleSpace: Container(
-        //         margin: const EdgeInsets.only(top: BoxStyle.padding18),
-        //         width: double.infinity,
-        //         // height: 47,
-        //         child: ListView.builder(
-        //           physics: const BouncingScrollPhysics(),
-        //           scrollDirection: Axis.horizontal,
-        //           itemCount: categories.length,
-        //           itemBuilder: (context, index) {
-        //             return TabItem(
-        //               text: categories[index],
-        //               isSelected: initialPage == index,
-        //               onTap: () {
-        //                 setState(() => initialPage = index);
-        //                 pageController.animateToPage(
-        //                   index,
-        //                   duration: const Duration(milliseconds: 100),
-        //                   curve: Curves.easeInOut,
-        //                 );
-        //               },
-        //             );
-        //           },
-        //         ),
-        //       ),
-        //     ),
-        //   ],
-        //   body: PageViewProduct(
-        //     pageController: pageController,
-        //     categories: categories,
-        //   ),
-        // ),
       ),
     );
   }
