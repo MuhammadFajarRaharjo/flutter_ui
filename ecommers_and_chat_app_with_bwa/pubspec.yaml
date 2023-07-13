@@ -1,0 +1,44 @@
+name: ecommers_and_chat_app_with_bwa
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  carousel_slider: ^4.2.1
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.3.1
+  flutter_riverpod: ^2.3.6
+  flutter_svg: ^2.0.7
+  google_fonts: ^5.1.0
+  riverpod_annotation: ^2.1.1
+  timelines: ^0.1.0
+
+dev_dependencies:
+  build_runner: ^2.4.6
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  riverpod_generator: ^2.2.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/svg/
+    - assets/images/
+    - assets/images/products/
+
+flutter_native_splash:
+  color: "#1F1D2B"
+  image: assets/images/logo.png
+  android_12:
+    color: "#1F1D2B"
+    image: assets/images/logo.png
+
+flutter_assets:
+  assets_path: assets/
+  output_path: lib/utils/constants/
+  filename: assets.dart
