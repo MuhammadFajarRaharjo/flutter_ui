@@ -41,6 +41,10 @@ class Assets {
   /// assets/icons/meta_logo.svg
   static const String assetsIconsMetaLogo = "assets/icons/meta_logo.svg";
 
+  /// Assets for assetsIconsReceiptadd
+  /// assets/icons/receiptadd.svg
+  static const String assetsIconsReceiptadd = "assets/icons/receiptadd.svg";
+
   /// Assets for assetsIconsRepeat
   /// assets/icons/repeat.svg
   static const String assetsIconsRepeat = "assets/icons/repeat.svg";

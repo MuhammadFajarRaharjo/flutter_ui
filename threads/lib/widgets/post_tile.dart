@@ -32,8 +32,9 @@ class PostTile extends StatelessWidget {
                 height: 40,
                 indicatorXY: 0,
                 indicator: CircleAvatar(
-                  backgroundImage:
-                      AssetImage(Assets.assetsImagesProfile), //* USER PROFILE
+                  backgroundImage: AssetImage(
+                    Assets.assetsImagesProfile, //* USER PROFILE
+                  ),
                 ),
                 padding: EdgeInsets.only(bottom: 5, right: 15),
               ),
