@@ -54,11 +54,11 @@ class _MainScreenState extends ConsumerState<MainScreen> {
         body: PageView(
           physics: const NeverScrollableScrollPhysics(),
           controller: pageController,
-          children: const [
-            HomeScreen(),
-            SearchScreen(),
+          children: [
+            const HomeScreen(),
+            const SearchScreen(),
             ActivityScreen(),
-            ProfileScreen(),
+            const ProfileScreen(),
           ],
         ),
         bottomNavigationBar: _bottomNavigationBar(context),
