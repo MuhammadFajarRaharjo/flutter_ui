@@ -9,6 +9,10 @@ class Assets {
   /// assets/icons/create_selected.svg
   static const String assetsIconsCreateSelected = "assets/icons/create_selected.svg";
 
+  /// Assets for assetsIconsGlobal
+  /// assets/icons/global.svg
+  static const String assetsIconsGlobal = "assets/icons/global.svg";
+
   /// Assets for assetsIconsHeart
   /// assets/icons/heart.svg
   static const String assetsIconsHeart = "assets/icons/heart.svg";
@@ -29,6 +33,10 @@ class Assets {
   /// assets/icons/home_selected.svg
   static const String assetsIconsHomeSelected = "assets/icons/home_selected.svg";
 
+  /// Assets for assetsIconsInstagram
+  /// assets/icons/instagram.svg
+  static const String assetsIconsInstagram = "assets/icons/instagram.svg";
+
   /// Assets for assetsIconsLogoSplashscreen
   /// assets/icons/logo_splashscreen.svg
   static const String assetsIconsLogoSplashscreen = "assets/icons/logo_splashscreen.svg";
@@ -40,6 +48,10 @@ class Assets {
   /// Assets for assetsIconsMetaLogo
   /// assets/icons/meta_logo.svg
   static const String assetsIconsMetaLogo = "assets/icons/meta_logo.svg";
+
+  /// Assets for assetsIconsMore
+  /// assets/icons/more.svg
+  static const String assetsIconsMore = "assets/icons/more.svg";
 
   /// Assets for assetsIconsReceiptadd
   /// assets/icons/receiptadd.svg
